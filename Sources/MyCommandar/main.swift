@@ -4,8 +4,19 @@ import Foundation
 import Swiftline
 
 
+
+
+let main = MainMenu()
+while(true) {
+    main.display()
+}
+
+
 //참고 : https://github.com/IngmarStein/CommandLineKit/tree/v2.3.0
 
+
+
+/*
 let cli = CommandLineKit.CommandLine()
 
 let dirPath = StringOption(shortFlag: "t", longFlag: "filetypes", helpMessage: "list all the types of files in current directory")
@@ -78,7 +89,7 @@ if choice == true {
     print("Successfully Moved \(noOfFileMoved) of file!".underline().bold().green() )
 }
 
-
+*/
 /*
  ColorizeSwift TEST
  
